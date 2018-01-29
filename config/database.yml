@@ -29,10 +29,10 @@ test:
   database: events_test
 
  production:
-    <<: *default
-    database: event_production
-    username: root #ここをrootに変更する
-　　 password:      #ここを空欄にする
+  <<: *default
+  database: event_production
+  username: root #ここをrootに変更する
+  password:      #ここを空欄にする
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
